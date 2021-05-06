@@ -34,5 +34,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Movie title gallery assignment refactored from Vue to React. </br> Original repo (in Vue): https://github.com/keelnu/via-assignment",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keelnu/via-refactored.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keelnu/via-refactored/issues"
+  },
+  "homepage": "https://github.com/keelnu/via-refactored#readme"
 }
