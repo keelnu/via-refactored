@@ -1,11 +1,14 @@
+import './SidebarItem.css';
 
-function SidebarItem() {
+function SidebarItem({ titleName, rating, description }) {
 
+  
   return (
-    <div>
-      <h2>Movie Title</h2>
-      <p>Rating: TV-PG</p>
-      <p>Synopsis: Description goes here.</p>
+    <div className="title-metadata">
+      {/* add conditional stmt so RATING doesn't always show */}
+      <h2>{titleName}</h2>
+      <h3>Rating: {rating}</h3>
+      <p>{description}</p>
     </div>
   )
 }

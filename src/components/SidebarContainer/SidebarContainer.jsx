@@ -1,16 +1,15 @@
 import './SidebarContainer.css';
 import SidebarItem from '../SidebarItem/SidebarItem';
 
-function SidebarContainer({ selectedTitle }) {
+function SidebarContainer({ id, titleName, rating, description }) {
+
   return (
-    <>
-      <div>
-        <h2>Movie Title</h2>
-        <p>Rating: TV-PG</p>
-        <p>Synopsis: Description goes here.</p>
-      </div>
-      <SidebarItem />
-    </>
+      <SidebarItem
+        id={id}
+        titleName={titleName}
+        rating={rating}
+        description={description} 
+      />
   )
 }
 

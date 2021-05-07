@@ -1,0 +1,25 @@
+.title-metadata {
+	width: 80%;
+	padding-left: 1.5rem;
+	margin-top: 2rem;
+	overflow: hidden;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 0 0 0.2rem 0;
+	padding: 0;
+}
+
+h3 {
+	font-size: 18px;
+	padding: 0;
+	margin: 0 0 1rem 0;
+	font-weight: 600;
+}
+
+p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
