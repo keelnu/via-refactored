@@ -1,0 +1,29 @@
+.title-gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+	gap: 1.5rem 1.25rem;
+	padding: 1.5rem;
+	overflow-y: scroll;
+}
+
+.gallery-item {
+	width: 260px;
+	height: 390px;
+}
+
+.gallery-item:hover {
+	opacity: 0.4;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.thumb-title {
+	width: 70%;
+	margin: 0;
+	padding: 0 20px 0 0;
+	font-size: 20px;
+}
+
+li {
+	list-style-type: none;
+}
