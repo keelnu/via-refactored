@@ -8,6 +8,7 @@ function Gallery({ titles }) {
   const [titleName, setTitleName] = useState('');
   const [rating, setRating] = useState('');
   const [description, setDescription] = useState('');
+  const [selected, setSelected] = useState(false);
   
   const titleItems = titles.map(title => 
     <li
@@ -17,8 +18,8 @@ function Gallery({ titles }) {
         setTitleName(title.name);
         setRating(title.titleRatingDisplayName);
         setDescription(title.description.medium);
+        setSelected(true);
         console.log(`You clicked ${JSON.stringify(title.name)}, id: ${JSON.stringify(title.id)}`);
-        // console.log('selectedTitle is now ', {selectedTitle});
         }}
         >
       <img
@@ -40,6 +41,7 @@ function Gallery({ titles }) {
         titleName={titleName}
         rating={rating}
         description={description}
+        selected={selected}
       />
     </>  
   )

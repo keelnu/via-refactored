@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <div className="wrapper">
         <div className="container">
-          <Gallery titles={titles} />
+          <Gallery isSelected={false} titles={titles} />
         </div>
       </div>
     </div>
